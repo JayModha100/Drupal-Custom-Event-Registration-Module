@@ -1,0 +1,6 @@
+event_registration.settings:
+  title: 'Event Registration Settings'
+  description: 'Configure admin email and notifications for event registration'
+  parent: system.admin_config
+  route_name: event_registration.settings_form
+  menu_name: admin

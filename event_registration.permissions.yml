@@ -1,0 +1,6 @@
+administer event registrations:
+  title: 'Administer event registrations'
+  description: 'Manage event configuration and view registrations'
+event registration:
+  title: 'Register for events'
+  description: 'Allow users to register for events'
