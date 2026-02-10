@@ -32,7 +32,12 @@ Custom Drupal 10 module that allows users to register for events and provides an
 - `event_registration_event → Stores event configuration details (event_name, category, event_date, reg_start_date, reg_end_date, created)`
 - `event_registration_submission → Stores event registrations (full_name, email, college, department, category, event_date, event_id, created)`
 
-SQL dump is provided in database/event_registration.sql. All date/time fields are shown as DATETIME for clarity.
+SQL dump is provided in database/event_registration.sql.
+
+## Validation & Email Logic
+- `Validation: Prevents duplicate registrations per event based on email and event date`
+- `Email notifications: Sent to the user confirming registration and to the admin for new submissions. Uses Drupal mail system (SMTP can be configured if required)`
+
 ## Notes
 - Email sending uses Drupal mail system (SMTP can be configured if required).
 - CSV export reflects filtered admin table data.
