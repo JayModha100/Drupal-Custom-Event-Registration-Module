@@ -44,3 +44,9 @@ SQL dump is provided in database/event_registration.sql.
 
 ## Drupal Version
 - Drupal 10
+
+## Evaluator Quick Test
+   1. Enable the module and assign required permissions.
+   2. Create events from the Event Configuration page.
+   3. Register a user via /event/register.
+   4. Verify admin listing, filters, total count, and CSV export at /admin/event-registrations.
