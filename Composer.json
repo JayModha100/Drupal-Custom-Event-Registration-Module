@@ -1,0 +1,32 @@
+{
+  "name": "drupal/event-registration-assignment",
+  "description": "Drupal 10 project with custom Event Registration module",
+  "type": "project",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "php": ">=8.1",
+    "drupal/core-recommended": "^10.2",
+    "drupal/core-composer-scaffold": "^10.2",
+    "drupal/core-project-message": "^10.2"
+  },
+  "require-dev": {
+    "drupal/core-dev": "^10.2"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "extra": {
+    "drupal-scaffold": {
+      "locations": {
+        "web-root": "web/"
+      }
+    }
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "composer/installers": true,
+      "drupal/core-composer-scaffold": true,
+      "drupal/core-project-message": true
+    }
+  }
+}
