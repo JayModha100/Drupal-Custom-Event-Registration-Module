@@ -11,3 +11,5 @@ Thumbs.db
 
 # Vendor (safety, even if unused)
 vendor/
+/.editorconfig
+/.gitattributes
