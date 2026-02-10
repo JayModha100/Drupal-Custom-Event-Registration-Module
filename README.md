@@ -17,7 +17,7 @@ Custom Drupal 10 module that allows users to register for events and provides an
 2. Enable the module:
    `drush en event_registration`
 3. Import database tables:
-   `mysql -u USER -p DB_NAME < sql/event_registration.sql`
+   `mysql -u USER -p DB_NAME < database/event_registration.sql`
 
 ## Usage
 - User registration page: `/event/register`
